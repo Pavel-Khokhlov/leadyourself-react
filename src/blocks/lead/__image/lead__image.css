@@ -1,0 +1,9 @@
+.lead__image {
+  width: 90%;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: -1;
+}

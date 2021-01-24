@@ -1,0 +1,6 @@
+.anchor {
+  display: block;
+  position: relative;
+  top: max(-60px, -25vw);
+  visibility: hidden;
+}

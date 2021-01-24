@@ -1,0 +1,7 @@
+@import url(__list/uslugi__list.css);
+@import url(__item/uslugi__item.css);
+
+.uslugi {
+  text-align: center;
+  margin-bottom: min(100px, 8.5vw);
+}

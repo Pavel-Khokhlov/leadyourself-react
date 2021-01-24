@@ -1,0 +1,19 @@
+@import url(__links/header__links.css);
+@import url(__link/header__link.css);
+@import url(__icon/header__icon.css);
+
+.header {
+  height: min(40px, 18vw);;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 min(20px, 3vw);
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}

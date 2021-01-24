@@ -1,0 +1,7 @@
+.logo__image {
+  width: min(60px, 10vw);
+  height: min(60px, 10vw);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

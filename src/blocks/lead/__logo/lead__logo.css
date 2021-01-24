@@ -1,0 +1,7 @@
+.lead__logo {
+  width: min(120px, 12vw);
+  margin: 0 max(-24px, -2.5vw) max(-40px, -3.5vw) 0;
+  filter: drop-shadow(10px 10px 8px rgba(0, 0, 0, 0.6));
+  position: relative;
+  z-index: 2;
+}

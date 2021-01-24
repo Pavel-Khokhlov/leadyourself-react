@@ -1,0 +1,4 @@
+.lead__info {
+  width: 80%;
+  margin: min(160px, 30vw) auto min(70px, 10vw);
+}

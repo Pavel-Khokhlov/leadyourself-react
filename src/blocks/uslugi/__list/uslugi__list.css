@@ -1,0 +1,17 @@
+.uslugi__list {
+  margin: 0 20px;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: min(80px, 7vw);
+}
+
+@media only screen and (max-width: 500px) {
+  .uslugi__list {
+    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
+  }
+}

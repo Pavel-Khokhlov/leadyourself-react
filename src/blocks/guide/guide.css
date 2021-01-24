@@ -1,0 +1,10 @@
+@import url(__image/guide__image.css);
+@import url(__input/guide__input.css);
+
+.guide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: min(100px, 8.5vw);
+}

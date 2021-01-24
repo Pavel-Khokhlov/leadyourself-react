@@ -1,0 +1,7 @@
+.header__icon {
+  width: min(25px, 6vw);
+  height: min(25px, 6vw);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

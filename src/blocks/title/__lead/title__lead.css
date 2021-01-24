@@ -1,0 +1,11 @@
+.title__lead {
+  font-size: clamp(20px, 8vw, 80px);
+  font-weight: bold;
+  line-height: 1;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 10px 10px 8px rgba(0, 0, 0, 0.6);
+  margin: 0;
+  position: relative;
+  z-index: 3;
+}

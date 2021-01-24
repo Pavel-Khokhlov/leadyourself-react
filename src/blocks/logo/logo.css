@@ -1,0 +1,8 @@
+@import url(__header/logo__header.css);
+@import url(__image/logo__image.css);
+
+.logo {
+  margin: 0;
+  padding: 0;
+  display: block;
+}

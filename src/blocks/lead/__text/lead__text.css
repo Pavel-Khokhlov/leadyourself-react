@@ -1,0 +1,9 @@
+.lead__text {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(6px);
+  width: min(500px, 60vw);
+  padding: min(20px, 2vw) min(20px, 2vw);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+  border-radius: min(20px, 1vw);
+  margin: 0 20px 0 auto;
+}

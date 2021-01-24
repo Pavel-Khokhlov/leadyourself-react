@@ -1,0 +1,12 @@
+.popup__input {
+  border-radius: 10px;
+  border: 1px solid grey;
+  margin-bottom: min(20px, 4vw);
+  height: 20px;
+  padding: 5px 10px;
+}
+
+.popup__input:focus {
+  border-radius: 10px;
+  border: 1px solid blue;
+}

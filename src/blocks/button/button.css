@@ -1,0 +1,21 @@
+@import url(__main/button__main.css);
+@import url(__popup/button__popup.css);
+
+.button {
+  /* сброс стилей */
+  border: none;
+  cursor: pointer;
+  /* настройки кнопок */
+  opacity: 1;
+  transition: 0.8s;
+  font-weight: normal;
+  color: white;
+}
+
+.button:active {
+  outline-style: none;
+}
+
+.button:focus {
+  outline-style: none;
+}
