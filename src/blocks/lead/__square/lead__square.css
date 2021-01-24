@@ -7,7 +7,7 @@
   height: 400px;
   background-color: transparent;
   border: 2px solid black;
-  animation: spin 20s infinite ease;
+  animation: spin 20s infinite linear;
 }
 
 @keyframes spin {
