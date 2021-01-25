@@ -1,5 +1,5 @@
 .lead__title {
   display: flex;
   align-items: flex-end;
-  margin: 0 0 min(70px, 10vw);
+  margin: 0 0 min(70px, 20vw);
 }

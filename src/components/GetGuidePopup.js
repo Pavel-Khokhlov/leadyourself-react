@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import PopupWithForm from "./PopupWithForm";
 
 const GetGuidePopup = (props) => {
@@ -27,11 +27,11 @@ const GetGuidePopup = (props) => {
 
   return (
     <PopupWithForm
-    isOpen={props.isOpen}
-    onClose={props.onClose}
-    title={`Заполните форму`}
-    //button={props.button}
-    onSubmit={handleSubmit}
+      isOpen={props.isOpen}
+      onClose={props.onClose}
+      title={`Заполните форму`}
+      //button={props.button}
+      onSubmit={handleSubmit}
     >
       <lable className="popup__lable">Имя</lable>
       <input
@@ -40,6 +40,7 @@ const GetGuidePopup = (props) => {
         name="name"
         placeholder="Введите имя"
         required
+        autocomplete="off"
         value={name || ""}
         onChange={handleChangeName}
       />

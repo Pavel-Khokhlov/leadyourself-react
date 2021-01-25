@@ -4,9 +4,14 @@
   margin-bottom: min(20px, 4vw);
   height: 20px;
   padding: 5px 10px;
+  outline: none;
 }
 
 .popup__input:focus {
-  border-radius: 10px;
-  border: 1px solid blue;
+  border: none;
+  box-shadow: 0px 0px 6px rgb(29, 152, 253);
+}
+
+.popup__input:active {
+  border: none;
 }
