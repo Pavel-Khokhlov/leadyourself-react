@@ -22,7 +22,7 @@ const GetGuidePopup = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    //props.onGetGuide(name, email);
+    props.onGetGuide();
   };
 
   return (
@@ -33,7 +33,7 @@ const GetGuidePopup = (props) => {
       //button={props.button}
       onSubmit={handleSubmit}
     >
-      <lable className="popup__lable">Имя</lable>
+      <lable className="popup__lable">Имя :</lable>
       <input
         className="popup__input"
         type="text"
@@ -45,13 +45,14 @@ const GetGuidePopup = (props) => {
         onChange={handleChangeName}
       />
       <span className="popup__error-name">{}</span>
-      <lable className="popup__lable">E-mail</lable>
+      <lable className="popup__lable">E-mail :</lable>
       <input
         className="popup__input"
         type="email"
         name="email"
         placeholder="Введите E-mail"
         required
+        autocomplete="off"
         value={email || ""}
         onChange={handleChangeEmail}
       />

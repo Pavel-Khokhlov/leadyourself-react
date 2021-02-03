@@ -1,0 +1,5 @@
+.offer__subtitle {
+  padding: 0;
+  margin: 0 0 min(20px, 5vw);
+  font-size: min(18px, 4vw);
+}

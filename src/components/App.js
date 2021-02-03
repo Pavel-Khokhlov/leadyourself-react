@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Header from "./Header";
+import Header from "./Header/Header";
 import Main from "./Main";
-import Footer from "./Footer";
+import Footer from "./Footer/Footer";
 import GetGuidePopup from "./GetGuidePopup";
 
 const App = () => {

@@ -1,0 +1,10 @@
+@import url(__card/offer__card.css);
+@import url(__list/offer__list.css);
+@import url(__img/offer__img.css);
+@import url(__subtitle/offer__subtitle.css);
+
+.offer {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto min(100px, 8.5vw);
+}

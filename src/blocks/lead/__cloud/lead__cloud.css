@@ -1,0 +1,15 @@
+.lead__cloud {
+  width: min(500px, 20vw);
+  opacity: 0.4;
+  position: relative;
+  animation: flyFromLeft 20s linear infinite;
+}
+
+@keyframes flyFromLeft {
+  0% {
+    left: 300px;
+  }
+  100% {
+    left: 1000px;
+  }
+}

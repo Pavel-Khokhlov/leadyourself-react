@@ -1,4 +1,7 @@
 .popup__close-btn {
+  /* сброс стилей */
+  border: none;
+  cursor: pointer;
   position: absolute;
   width: min(40px, 8vw);
   height: min(40px, 8vw);
@@ -12,8 +15,18 @@
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: transparent;
+  opacity: 1;
+  transition: 0.5s;
 }
 
-.button:hover {
+.popup__close-btn:hover {
   opacity: 0.5;
+}
+
+.popup__close-btn:active {
+  outline-style: none;
+}
+
+.popup__close-btn:focus {
+  outline-style: none;
 }

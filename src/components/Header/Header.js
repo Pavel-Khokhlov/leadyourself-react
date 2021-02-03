@@ -1,6 +1,8 @@
 import React from "react";
-import Instagram from "../images/instagram.png";
-import Telegram from "../images/telegram2.png";
+import Instagram from "../../images/instagram.png";
+import Telegram from "../../images/telegram2.png";
+
+import "./header.css";
 
 const Header = () => {
   return (
@@ -12,7 +14,7 @@ const Header = () => {
           </a>
         </li>
         <li>
-          <a href="#uslugi" className="header__link">
+          <a href="#article" className="header__link">
             Услуги
           </a>
         </li>
@@ -22,7 +24,7 @@ const Header = () => {
           </a>
         </li>
         <li>
-          <a href="#" className="header__link">
+          <a href="#contacts" className="header__link">
             <img
               src={Instagram}
               alt="иконка инстаграм"
@@ -31,7 +33,7 @@ const Header = () => {
           </a>
         </li>
         <li>
-          <a href="#" className="header__link">
+          <a href="#contacts" className="header__link">
             <img
               src={Telegram}
               alt="иконка телеграм"

@@ -1,5 +1,6 @@
 @import url(__lead/title__lead.css);
 @import url(__main/title__main.css);
+@import url(__article/title__article.css);
 
 .title {
   padding: 0;

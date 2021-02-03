@@ -6,7 +6,7 @@ const PopupWithForm = (props) => {
   }`;
 
   return (
-    <section className={popupOpenClassName} onClick={props.onCLose}>
+    <section className={popupOpenClassName} onClick={props.onClose}>
       <form
         className="popup__container"
         method="post"
@@ -15,14 +15,15 @@ const PopupWithForm = (props) => {
         onSubmit={props.onSubmit}
       >
         <button
-          className="button popup__close-btn"
+          type="button"
+          className="popup__close-btn"
           aria-label="Вернуться на страницу"
           onClick={props.onClose}
         />
         <h2 className="popup__title">{props.title}</h2>
         {props.children}
         <button
-          type="button"
+          type="submit"
           className="button button__popup"
           aria-label="скачать описание"
           onClick={props.onCLose}

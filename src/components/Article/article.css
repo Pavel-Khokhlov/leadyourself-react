@@ -1,0 +1,20 @@
+.article {
+  width: 100%;
+  display: grid;
+  flex-direction: row;
+  justify-content: center;
+  grid-template-columns: repeat(2, min(400px, 40vw));
+  gap: min(30px, 5vw);
+  border: 2px red solid;
+}
+
+.article__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.article__image {
+  width: 100%;
+}

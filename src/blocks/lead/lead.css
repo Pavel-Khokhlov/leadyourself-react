@@ -4,6 +4,7 @@
 @import url(__title/lead__title.css);
 @import url(__logo/lead__logo.css);
 @import url(__square/lead__square.css);
+@import url(__cloud/lead__cloud.css);
 
 .lead {
   margin: 0 auto min(120px, 10vw);
