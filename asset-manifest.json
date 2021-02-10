@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/leadyourself-react/static/css/main.7ee54c3f.chunk.css",
-    "main.js": "/leadyourself-react/static/js/main.225ebf3d.chunk.js",
-    "main.js.map": "/leadyourself-react/static/js/main.225ebf3d.chunk.js.map",
+    "main.css": "/leadyourself-react/static/css/main.12dec1d6.chunk.css",
+    "main.js": "/leadyourself-react/static/js/main.1488a031.chunk.js",
+    "main.js.map": "/leadyourself-react/static/js/main.1488a031.chunk.js.map",
     "runtime-main.js": "/leadyourself-react/static/js/runtime-main.0cdd2079.js",
     "runtime-main.js.map": "/leadyourself-react/static/js/runtime-main.0cdd2079.js.map",
     "static/js/2.31eb0234.chunk.js": "/leadyourself-react/static/js/2.31eb0234.chunk.js",
@@ -10,16 +10,18 @@
     "static/js/3.3f480098.chunk.js": "/leadyourself-react/static/js/3.3f480098.chunk.js",
     "static/js/3.3f480098.chunk.js.map": "/leadyourself-react/static/js/3.3f480098.chunk.js.map",
     "index.html": "/leadyourself-react/index.html",
-    "static/css/main.7ee54c3f.chunk.css.map": "/leadyourself-react/static/css/main.7ee54c3f.chunk.css.map",
+    "static/css/main.12dec1d6.chunk.css.map": "/leadyourself-react/static/css/main.12dec1d6.chunk.css.map",
     "static/js/2.31eb0234.chunk.js.LICENSE.txt": "/leadyourself-react/static/js/2.31eb0234.chunk.js.LICENSE.txt",
-    "static/media/cloud.f529030a.png": "/leadyourself-react/static/media/cloud.f529030a.png",
-    "static/media/logo2.d7e86cfe.jpg": "/leadyourself-react/static/media/logo2.d7e86cfe.jpg",
-    "static/media/logo3.b704190f.jpg": "/leadyourself-react/static/media/logo3.b704190f.jpg"
+    "static/media/logo3.b704190f.jpg": "/leadyourself-react/static/media/logo3.b704190f.jpg",
+    "static/media/us1.7352dcd2.jpg": "/leadyourself-react/static/media/us1.7352dcd2.jpg",
+    "static/media/us2.8d0c649d.jpg": "/leadyourself-react/static/media/us2.8d0c649d.jpg",
+    "static/media/us4.544e56a6.jpg": "/leadyourself-react/static/media/us4.544e56a6.jpg",
+    "static/media/us5.0280b0f4.jpg": "/leadyourself-react/static/media/us5.0280b0f4.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.0cdd2079.js",
     "static/js/2.31eb0234.chunk.js",
-    "static/css/main.7ee54c3f.chunk.css",
-    "static/js/main.225ebf3d.chunk.js"
+    "static/css/main.12dec1d6.chunk.css",
+    "static/js/main.1488a031.chunk.js"
   ]
 }
