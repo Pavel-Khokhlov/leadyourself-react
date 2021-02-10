@@ -4,4 +4,5 @@
   font-size: clamp(15px, 4vw, 24px);
   margin: 0;
   padding: 0;
+  text-align: left;
 }

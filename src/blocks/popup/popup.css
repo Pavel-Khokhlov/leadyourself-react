@@ -4,7 +4,8 @@
 @import url(__lable/popup__lable.css);
 
 .popup {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(20px);
   position: fixed;
   top: -100%;
   left: 0;

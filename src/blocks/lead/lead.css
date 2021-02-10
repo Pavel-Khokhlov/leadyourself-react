@@ -9,4 +9,5 @@
 .lead {
   margin: 0 auto min(120px, 10vw);
   z-index: 1;
+  position: relative;
 }

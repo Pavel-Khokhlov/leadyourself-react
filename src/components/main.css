@@ -7,4 +7,7 @@
 .main__article {
   width: 90%;
   margin: 0 auto min(100px, 8.5vw);
+  display: flex;
+  flex-direction: column;
+  gap: min(30px, 5vw);
 }

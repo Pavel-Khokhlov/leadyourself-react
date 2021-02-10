@@ -5,6 +5,6 @@
   display: grid;
   flex-direction: row;
   justify-content: center;
-  grid-template-columns: repeat(4, min(200px, 20vw));
+  grid-template-columns: repeat(5, min(180px, 15vw));
   gap: 20px;
 }

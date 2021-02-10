@@ -13,6 +13,7 @@ const PopupWithForm = (props) => {
         noValidate
         onClick={(e) => e.stopPropagation()}
         onSubmit={props.onSubmit}
+        //action={telegram.php}
       >
         <button
           type="button"
@@ -20,7 +21,7 @@ const PopupWithForm = (props) => {
           aria-label="Вернуться на страницу"
           onClick={props.onClose}
         />
-        <h2 className="popup__title">{props.title}</h2>
+        <h2 className="title__popup">{props.title}</h2>
         {props.children}
         <button
           type="submit"

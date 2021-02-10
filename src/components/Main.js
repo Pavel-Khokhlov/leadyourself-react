@@ -1,8 +1,11 @@
 import React from "react";
 
-import SMM from "../images/logo2.jpg";
+import US1 from "../images/us1.jpg";
+import US2 from "../images/us2.jpg";
+import US3 from "../images/us3.jpg";
+import US4 from "../images/us4.jpg";
+import US5 from "../images/us5.jpg";
 import Guide from "../images/logo3.jpg";
-import Cloud from "../images/cloud.png";
 import CardOffer from "./CardOffer/CardOffer";
 import Article from "./Article/Article";
 import Button from "./Button/Button";
@@ -16,7 +19,6 @@ const Main = (props) => {
       {/* LEAD */}
       <div className="anchor" id="lead"></div>
       <section className="lead">
-        <img src={Cloud} alt="облако" className="lead__cloud" />
         <div className="lead__info">
           <h1 className="title title__lead">Lead yourself</h1>
           <p className="subtitle subtitle_lead">Визуальное агенство</p>
@@ -36,14 +38,11 @@ const Main = (props) => {
           выбрать <span className="title__main_color">услугу</span>
         </h3>
         <ul className="offer__list">
-          <CardOffer src={SMM} subtitle={`Услуга SMM`} button={`Подробнее`} />
-          <CardOffer src={SMM} subtitle={`Контент`} button={`Подробнее`} />
-          <CardOffer
-            src={SMM}
-            subtitle={`Создание сайтов`}
-            button={`Подробнее`}
-          />
-          <CardOffer src={SMM} subtitle={`Фотосессия`} button={`Подробнее`} />
+          <CardOffer src={US1} subtitle={`SMM`} button={`Ask`} />
+          <CardOffer src={US2} subtitle={`Контент`} button={`Ask`} />
+          <CardOffer src={US1} subtitle={`Cайт`} button={`Ask`} />
+          <CardOffer src={US2} subtitle={`Фото`} button={`Ask`} />
+          <CardOffer src={US1} subtitle={`Секс`} button={`Ask`} />
         </ul>
       </section>
       {/* GUIDE */}
@@ -62,9 +61,48 @@ const Main = (props) => {
       {/* ARTICLES */}
       <div className="anchor" id="articles"></div>
       <section className="main__article">
-        <Article src={Guide} button={`Купить`}>
-          <h3 className="title title__article">Упаковка инстаграма</h3>
-          <ul>
+        <Article
+          title={`Услуги SMM`}
+          button={`Заказать`}
+          classNameInfo={`article__info article__info_reverse`}
+        >
+          <ul className="article__text">
+            <li>
+              <p className="paragraph">полный разбор страницы</p>
+            </li>
+            <li>
+              <p className="paragraph">разбор схемы постинга</p>
+            </li>
+            <li>
+              <p className="paragraph">подбор цветовой палитры</p>
+            </li>
+            <li>
+              <p className="paragraph">создание шапки профиля</p>
+            </li>
+            <li>
+              <p className="paragraph">отбор и обработка фотографий</p>
+            </li>
+            <li>
+              <p className="paragraph">оформление актуальных историй</p>
+            </li>
+            <li>
+              <p className="paragraph">
+                &#8226; составление раскладки на 19 постов
+              </p>
+            </li>
+            <li>
+              <p className="paragraph">консультация в течении недели</p>
+            </li>
+          </ul>
+          <img src={Guide} alt="обложка" className="article__image" />
+        </Article>
+        <Article
+          title={`Упаковка инстаграм`}
+          button={`Заказать`}
+          classNameInfo={`article__info`}
+        >
+          <img src={Guide} alt="обложка" className="article__image" />
+          <ul className="article__text">
             <li>
               <p className="paragraph">полный разбор страницы</p>
             </li>
@@ -91,9 +129,46 @@ const Main = (props) => {
             </li>
           </ul>
         </Article>
-        <Article src={Guide} button={`Купить`}>
-          <h3 className="title title__article">Упаковка инстаграма</h3>
-          <ul>
+        <Article
+          title={`Создание сайтов`}
+          button={`Заказать`}
+          classNameInfo={`article__info article__info_reverse`}
+        >
+          <ul className="article__text">
+            <li>
+              <p className="paragraph">полный разбор страницы</p>
+            </li>
+            <li>
+              <p className="paragraph">разбор схемы постинга</p>
+            </li>
+            <li>
+              <p className="paragraph">подбор цветовой палитры</p>
+            </li>
+            <li>
+              <p className="paragraph">создание шапки профиля</p>
+            </li>
+            <li>
+              <p className="paragraph">отбор и обработка фотографий</p>
+            </li>
+            <li>
+              <p className="paragraph">оформление актуальных историй</p>
+            </li>
+            <li>
+              <p className="paragraph">составление раскладки на 19 постов</p>
+            </li>
+            <li>
+              <p className="paragraph">консультация в течении недели</p>
+            </li>
+          </ul>
+          <img src={Guide} alt="обложка" className="article__image" />
+        </Article>
+        <Article
+          title={`Полиграфия`}
+          button={`Заказать`}
+          classNameInfo={`article__info`}
+        >
+          <img src={Guide} alt="обложка" className="article__image" />
+          <ul className="article__text">
             <li>
               <p className="paragraph">полный разбор страницы</p>
             </li>
@@ -120,9 +195,12 @@ const Main = (props) => {
             </li>
           </ul>
         </Article>
-        <Article src={Guide} button={`Купить`}>
-          <h3 className="title title__article">Упаковка инстаграма</h3>
-          <ul>
+        <Article
+          title={`Разбор полетов`}
+          button={`Заказать`}
+          classNameInfo={`article__info article__info_reverse`}
+        >
+          <ul className="article__text">
             <li>
               <p className="paragraph">полный разбор страницы</p>
             </li>
@@ -148,35 +226,7 @@ const Main = (props) => {
               <p className="paragraph">консультация в течении недели</p>
             </li>
           </ul>
-        </Article>
-        <Article src={Guide} button={`Купить`}>
-          <h3 className="title title__article">Упаковка инстаграма</h3>
-          <ul>
-            <li>
-              <p className="paragraph">полный разбор страницы</p>
-            </li>
-            <li>
-              <p className="paragraph">разбор схемы постинга</p>
-            </li>
-            <li>
-              <p className="paragraph">подбор цветовой палитры</p>
-            </li>
-            <li>
-              <p className="paragraph">создание шапки профиля</p>
-            </li>
-            <li>
-              <p className="paragraph">отбор и обработка фотографий</p>
-            </li>
-            <li>
-              <p className="paragraph">оформление актуальных историй</p>
-            </li>
-            <li>
-              <p className="paragraph">составление раскладки на 19 постов</p>
-            </li>
-            <li>
-              <p className="paragraph">консультация в течении недели</p>
-            </li>
-          </ul>
+          <img src={Guide} alt="обложка" className="article__image" />
         </Article>
       </section>
     </main>

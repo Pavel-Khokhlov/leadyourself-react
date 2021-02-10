@@ -3,7 +3,8 @@
   border: none;
   cursor: pointer;
   /* настройки кнопок */
-  padding: 10px 30px;
+  position: relative;
+  padding: 8px 25px;
   margin: 0 auto;
   opacity: 1;
   transition: 0.8s;
